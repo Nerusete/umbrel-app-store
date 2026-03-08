@@ -1,8 +1,4 @@
-services:
-  tvheadend:
-    image: linuxserver/tvheadend:latest
-    ports:
-      - "9981:9981/tcp"
-    volumes:
-      - "/portainer/Files/AppData/Config/TVHeadend:/config"
-    restart: unless-stopped
+name: Mi App Store
+description: Tienda de aplicaciones de Jose Antonio
+apps:
+  - apps/*
