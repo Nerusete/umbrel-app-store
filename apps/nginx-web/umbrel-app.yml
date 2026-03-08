@@ -1,0 +1,8 @@
+id: nginx-web
+name: Nginx Web Server
+version: "1.0.0"
+description: Servidor web nginx
+developer: Jose Antonio
+website: https://nginx.org
+port: 9093
+icon: icon.png
