@@ -1,1 +1,8 @@
-
+id: filebrowser
+name: File Browser
+version: "1.0.0"
+description: Gestor de archivos web
+developer: Jose Antonio
+website: https://filebrowser.org
+port: 9092
+icon: icon.png
