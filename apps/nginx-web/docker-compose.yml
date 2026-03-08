@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  nginx:
+    image: nginx
+    restart: unless-stopped
+    ports:
+      - "9093:80"
